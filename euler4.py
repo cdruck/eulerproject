@@ -1,7 +1,4 @@
-
-
-def is_palindrome(a: int) -> bool:
-    return str(a) == str(a)[::-1]
+from utils import is_palindrome
 
 def main():
     pals = []
