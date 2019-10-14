@@ -1,4 +1,5 @@
 import os
+import itertools
 
 beep = lambda x: os.system("echo -n '\a';sleep 0.2;" * x)
 
@@ -32,4 +33,11 @@ def generate_primes_up_to(max_num):
 def is_prime(n, primes=[2]):
     if not primes:
         pass
-    return all((n%p > 0 for p in primes))
+    return all([n%p > 0 for p in primes])
+
+def read_primes():
+    f = open('primes')
+    return (int(i) for i in f.read().split("\n"))
+
+def read_n_primes(n):
+    return itertools.islice(read_primes(), n)
