@@ -7,6 +7,10 @@ beep = lambda x: os.system("echo -n '\a';sleep 0.2;" * x)
 def is_palindrome(a: int) -> bool:
     return str(a) == str(a)[::-1]
 
+def is_binary_palindrome(a: int) -> bool:
+    s = "{0:b}".format(a)
+    return s == s[::-1]
+
 def divisors(n):
     divs = [i for i in range(2, n+1) if n % i == 0]
     return divs
