@@ -1,5 +1,6 @@
 import os
 import itertools
+import numpy as np
 
 beep = lambda x: os.system("echo -n '\a';sleep 0.2;" * x)
 
@@ -28,12 +29,19 @@ def generate_n_primes(n, primes=[], reversed=True):
         return primes
 
 def generate_primes_up_to(max_num):
-    pass
+    primes = []
+    cands = [2] + list(range(3, max_num, 2))
+    while len(cands) > 0:
+        cand = cands.pop(0)
+        primes.append(cand)
+        cands = [c for c in cands if c % cand > 0]  # sieve
+    return primes
 
 def is_prime(n, primes=[2]):
     if not primes:
         pass
-    return all([n%p > 0 for p in primes])
+    reduced_primes = filter(lambda y: y <= np.sqrt(n)+1, primes)
+    return all([n%p > 0 for p in reduced_primes])
 
 def read_primes():
     f = open('primes')

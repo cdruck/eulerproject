@@ -1,8 +1,9 @@
-from utils import generate_n_primes
+from utils import generate_n_primes, generate_primes_up_to
 
-MORE_PRIMES = 400000
+MORE_PRIMES = 10000
 
 def main():
+    '''
     batch = 100
     more_primes = MORE_PRIMES
     prime_file = open("primes", 'r')
@@ -18,5 +19,11 @@ def main():
         prime_file.write("\n".join(map(str, primes[existing:])))
         print(list(primes[-batch:]))
         more_primes -= batch
+    '''
+
+    print(generate_primes_up_to(1000000))
 
 main()
+
+
+
