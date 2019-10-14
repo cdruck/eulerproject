@@ -25,7 +25,7 @@ def filter_combos(combos, mprimes, bound=1e100, use_bound=True):
 
 
 def main():
-    n_primes = 300
+    n_primes = 1100
     m_primes = 100000
     nprimes = list(read_n_primes(n_primes))
     mprimes = list(read_n_primes(m_primes))
@@ -41,7 +41,7 @@ def main():
     for a, b in valid_couples:
         special_primes.add(a)
         special_primes.add(b)
-    print("special_primes {}".format(sorted(list((special_primes)))))
+    print("{} special_primes: {}".format(len(special_primes), sorted(list(special_primes))))
     triples = []
     for combo in valid_couples:
         for prime in special_primes:

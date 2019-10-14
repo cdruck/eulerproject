@@ -14,7 +14,7 @@ def generate_n_primes(n, primes=[], reversed=True):
     if primes is None or len(primes) == 0:
         p = 2
     else:
-        p = primes[-1]
+        p = int(primes[-1])
     while len(primes) < n:
         if p == 2:
             p = 3
