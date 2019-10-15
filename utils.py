@@ -13,7 +13,7 @@ def is_binary_palindrome(a: int) -> bool:
 
 def divisors(n):
     divs = []
-    for i in [i for i in range(2, int(np.sqrt(n+1))) if n % i == 0]:
+    for i in [i for i in range(2, int(np.sqrt(n))+1) if n % i == 0]:
         divs.append(i)
         divs.append(int(n/i))
     return divs
