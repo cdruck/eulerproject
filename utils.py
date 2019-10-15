@@ -44,7 +44,7 @@ def generate_primes_up_to(max_num):
 def is_prime(n, primes=[2]):
     if not primes:
         pass
-    reduced_primes = filter(lambda y: y <= np.sqrt(n)+1, primes)
+    reduced_primes = filter(lambda y: y <= np.sqrt(n), primes)
     return all([n%p > 0 for p in reduced_primes])
 
 def read_primes():
