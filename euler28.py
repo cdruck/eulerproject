@@ -25,7 +25,8 @@ def main():
     # layer 3: 31 + 37 + 43 + 49 = 160 = 4*49 - 3*4*3
     # layer 4: 57 + 65 + 73 + 81 = 276 = 4*81 - 3*4*4
 
-    res = sum([4*((2*n+1)**2 - 3*n) for n in range(0, 51)])
+    print([1]+[4*((2*n+1)**2 - 3*n) for n in range(1, 501)])
+    res = sum([1]+[4*((2*n+1)**2 - 3*n) for n in range(1, 501)])
 
     print(res)
 
