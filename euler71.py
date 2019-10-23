@@ -23,7 +23,7 @@ def main():
         print(f'3/7 - {n}/{m} = {e}')
 
     # this prints 3/7 - 428570/999997.0 = 1.4285757138354782e-07, which is the solution ...
-    # it could have been trickier but a little bit of intuition worked here.
+    # it could be trickier for it to work for any fraction b, but a little bit of intuition worked here.
 
 
 main()
