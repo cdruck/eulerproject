@@ -24,6 +24,6 @@ def main():
                 print (f'n**2 + {a} n + {b} produces {n} conseq primes')
                 print (max_coeff_prod)
 
-    # last print gives the answer ... 
+    # last print gives the answer ...
 
 main()
