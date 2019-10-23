@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160b3b57-e723-4226-b9ca-659dcc698172" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/euler31.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/euler100.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/euler99.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p099_base_exp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +34,7 @@
     <SUITE FILE_PATH="coverage/eulerproject$euler7.coverage" NAME="euler7 Coverage Results" MODIFIED="1570996958538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eulerproject$euler31.coverage" NAME="euler31 Coverage Results" MODIFIED="1571859251649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eulerproject$euler22.coverage" NAME="euler22 Coverage Results" MODIFIED="1571778398814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eulerproject$euler100.coverage" NAME="euler100 Coverage Results" MODIFIED="1571862789688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eulerproject$euler40.coverage" NAME="euler40 Coverage Results" MODIFIED="1571821172049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eulerproject$euler60.coverage" NAME="euler60 Coverage Results" MODIFIED="1571079205692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eulerproject$euler49.coverage" NAME="euler49 Coverage Results" MODIFIED="1571115309069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -55,18 +58,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="primes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primes">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="euler31.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="euler31.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/euler31.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -149,11 +140,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="euler40.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/euler40.py">
+      <file leaf-file-name="euler100.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/euler100.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="457">
+              <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="euler99.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/euler99.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -224,6 +225,7 @@
         <option value="$PROJECT_DIR$/euler26.py" />
         <option value="$PROJECT_DIR$/euler30.py" />
         <option value="$PROJECT_DIR$/euler31.py" />
+        <option value="$PROJECT_DIR$/euler100.py" />
       </list>
     </option>
   </component>
@@ -297,26 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.euler31">
-    <configuration default="false" name="euler71" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="eulerproject" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/euler71.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.euler100">
     <configuration default="false" name="euler27" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,6 +371,25 @@
       <module name="eulerproject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/euler31.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="euler100" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="eulerproject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/euler100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -542,19 +544,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.euler71" />
-      <item index="1" class="java.lang.String" itemvalue="Python.euler27" />
-      <item index="2" class="java.lang.String" itemvalue="Python.euler26" />
-      <item index="3" class="java.lang.String" itemvalue="Python.euler30" />
-      <item index="4" class="java.lang.String" itemvalue="Python.euler31" />
+      <item index="0" class="java.lang.String" itemvalue="Python.euler27" />
+      <item index="1" class="java.lang.String" itemvalue="Python.euler26" />
+      <item index="2" class="java.lang.String" itemvalue="Python.euler30" />
+      <item index="3" class="java.lang.String" itemvalue="Python.euler31" />
+      <item index="4" class="java.lang.String" itemvalue="Python.euler100" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.euler31" />
-        <item index="1" class="java.lang.String" itemvalue="Python.euler30" />
-        <item index="2" class="java.lang.String" itemvalue="Python.euler26" />
-        <item index="3" class="java.lang.String" itemvalue="Python.euler27" />
-        <item index="4" class="java.lang.String" itemvalue="Python.euler71" />
+        <item index="0" class="java.lang.String" itemvalue="Python.euler100" />
+        <item index="1" class="java.lang.String" itemvalue="Python.euler31" />
+        <item index="2" class="java.lang.String" itemvalue="Python.euler30" />
+        <item index="3" class="java.lang.String" itemvalue="Python.euler26" />
+        <item index="4" class="java.lang.String" itemvalue="Python.euler27" />
       </list>
     </recent_temporary>
   </component>
@@ -622,20 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/euler36.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/euler49.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/primes_utm_edu.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1000,6 +988,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/euler100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/euler99.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
